@@ -1,0 +1,66 @@
+body {
+    background-color:   black ;
+     color:grey;
+     width:100%;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Times New Roman"
+    color:red;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+     color:grey;
+}
+div.movie {
+    margin: 60px 60px;
+    padding: 50px 25px 50px 25px;
+    width: 350px;
+    background-color:black;
+    float:left;
+
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width:300px;
+    height:400px
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+input {
+  font-family : inherit;
+  font-size   : 100%;
+   padding: 5px 40px 5px 4px;
+    margin: 6px 3px;
+    box-sizing: border-box;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+form{
+    background-color:black;
+    width:22%;
+    border: 5px solid grey;
+    border-radius: 10px;
+     padding: 5px 40px 5px 10px;
+}
+
+input[type="submit"]{
+    border : solid 6px #ffffff;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+    -webkit-box-shadow : 0px 0px 5px rgba(212,0,212,1.0);
+    -moz-box-shadow : 0px 0px 5px rgba(212,0,212,1.0);
+    box-shadow : 0px 0px 5px rgba(212,0,212,1.0);
+    font-size : 20px;
+    color : #ffffff;
+    padding : 5px 20px;
+    background-color : black;
+}
